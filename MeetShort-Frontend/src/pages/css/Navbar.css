@@ -1,0 +1,33 @@
+.navbar{
+    position: static;
+    background: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.3rem;
+    margin-right: 2rem;
+}
+.link{
+    text-decoration: none;
+    padding: 0px 2rem;
+    color: black !important;
+}
+.logo > img{
+    
+    width: 20rem;
+    height: 8rem;
+    /* margin: 0px !important;
+    padding: 0px !important; */
+    margin-left: -2rem;
+}
+
+@media only screen and (max-width: 580px) {
+    .navbar .list{
+        visibility: hidden !important;
+    }
+  }

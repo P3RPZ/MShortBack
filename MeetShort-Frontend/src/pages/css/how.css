@@ -1,0 +1,41 @@
+.how{
+    margin: 1rem 0rem !important;
+    padding: 2rem !important;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 5px );
+    -webkit-backdrop-filter: blur( 5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    color: black;
+}
+h2{
+    text-align: center;
+}
+.howcontent{
+    display: flex;
+    flex-direction: row;
+}
+.howcontent > p{
+    margin: 0rem 2rem;
+}
+
+@media only screen and (max-width: 580px) {
+
+    .how{
+        visibility:hidden;
+        padding: 2rem !important;
+        width: 150% !important;
+        margin:1rem -2.5rem 1rem -2.5rem !important;
+    }
+    .howcontent{
+        display: flex;
+        flex-direction: column;
+    }
+    .howcontent > h2{        
+        font-size: 1.5rem;
+    }
+    .howcontent > p{
+        font-size: 1rem;
+    }
+}

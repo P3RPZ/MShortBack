@@ -1,0 +1,54 @@
+.homepage{
+    height: 100vh;
+    background-image: url('./bg.png');
+    background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+    padding: 0px 4rem !important;
+    text-align: left;
+}
+.meetshort{
+    margin-top: 5rem;
+    width: 40%;
+}
+.meetshort > h1{
+    font-size: 3rem;
+    font-weight: bolder !important;
+}
+.btn-start{
+    margin-top: 2rem;
+    font-family: inherit;
+    padding: 0.5rem 2rem;
+    background-color: #ff5757;
+    color: azure;
+    font-weight: 500;
+    font-size: 1.3rem;
+    border-radius: 20px;
+    border: 0px solid;
+    cursor: pointer;
+    transition:linear 0.3s;
+}
+.btn-start > i {
+    margin-left: 1rem;
+}
+.btn-start:hover{
+    background-color: #fa2020;
+}
+
+@media only screen and (max-width: 580px) {
+    .meetshort{
+        width:100% !important;
+        overflow: hidden;
+    }
+    .homepage{
+        padding: 0rem 1rem !important;
+    }
+    .meetshort > h1{
+        font-size: 1rem;
+        font-weight: bolder !important;
+    }
+    .meetshort{
+        text-align: center;
+    }
+
+  }
